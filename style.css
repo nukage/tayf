@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Tell All Your Friends PR
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  D4GP PR Company Child Theme
+ Author:       Tom Myruski
+ Author URI:   http://TomMyruski.com.com
+ Template:     pr_company
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:          
+ Text Domain:  tayf
+*/
+
+@import '../pr_company/css/bootstrap.min.css';
+@import '../pr_company/fonts/font-awesome/css/font-awesome.css';
+@import '../pr_company/css/flexslider.css';   
+@import 'css/style.css';   
