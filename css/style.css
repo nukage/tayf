@@ -370,9 +370,10 @@ ol.type li a:hover {
 .portfolio-item {
   background: #742fab; }
   .portfolio-item .hover-bg {
-    max-height: 200px;
+    max-height: 210px;
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    transition: all 0.5s; }
 
 .portfolio-item .hover-bg:hover {
   opacity: .6;
@@ -382,18 +383,12 @@ ol.type li a:hover {
 .hover-bg .hover-text {
   text-align: center;
   margin: 0;
-  color: rgba(255, 255, 255, 0);
-  background: #3e195b;
-  padding: 0;
-  opacity: 1;
+  background: rgba(62, 25, 91, 0.4);
   transition: all 0.5s;
   position: absolute;
   bottom: 0;
-  width: 100%; }
-
-.hover-bg:hover .hover-text {
-  transition: all 0.5s;
-  padding-bottom: 10%; }
+  width: 100%;
+  z-index: 1; }
 
 .hover-bg .hover-text > h4 {
   opacity: 1;
@@ -403,8 +398,14 @@ ol.type li a:hover {
   padding: 3%; }
 
 .hover-bg:hover .hover-text > h4 {
-  opacity: 1;
-  -webkit-backface-visibility: hidden; }
+  opacity: 1; }
+
+.hover-bg img {
+  transition: all .5s; }
+
+.hover-bg:hover img {
+  transition: all .5s;
+  transform: scale(1.2) translateY(-3%); }
 
 .hover-bg .hover-text > p {
   opacity: 1;
