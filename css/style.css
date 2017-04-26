@@ -391,6 +391,10 @@ ol.type li a:hover {
   bottom: 0;
   width: 100%; }
 
+.hover-bg:hover .hover-text {
+  transition: all 0.5s;
+  padding-bottom: 10%; }
+
 .hover-bg .hover-text > h4 {
   opacity: 1;
   margin: 0;
