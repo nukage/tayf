@@ -1048,14 +1048,24 @@ ol.type li a:hover {
   color: white;
   text-align: center; }
 
+.wow {
+  visibility: hidden; }
+
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
   background-size: contain;
   text-indent: -999em;
   width: 230px; }
 
-Amatic + SC body {
-  font-family: "Oswald" , "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+body {
+  background-image: url("../img/layout/tayf_logo1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white; }
+
+.animsition {
+  background-color: #363636;
+  height: 100vh; }
 
 h1, h2, h3 {
   font-weight: 400;
