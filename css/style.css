@@ -390,6 +390,18 @@ ol.type li a:hover {
   width: 100%;
   z-index: 1; }
 
+.tour-icon {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background: #742fab;
+  padding: 5px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  right: 2px;
+  top: 2px;
+  font-size: 10px; }
+
 .hover-bg:hover .hover-text {
   padding-bottom: 4%; }
 
