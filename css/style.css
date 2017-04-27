@@ -12,8 +12,6 @@
  Text Domain:  tayf
 */
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-@import url("https://fonts.googleapis.com/css?family=Rock+Salt");
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 .test-class {
   background: red; }
@@ -390,6 +388,9 @@ ol.type li a:hover {
   width: 100%;
   z-index: 1; }
 
+.hover-bg:hover .hover-text {
+  padding-bottom: 4%; }
+
 .hover-bg .hover-text > h4 {
   opacity: 1;
   margin: 0;
@@ -751,6 +752,25 @@ h1 {
 .music .album-art {
   padding-bottom: 10px; }
 
+.music img {
+  transition: all .5s; }
+
+.music img:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 255, 255, 0.5);
+  transition: all .3s linear; }
+
+.music img:hover {
+  -webkit-filter: brightness(80%); }
+
 .music .album-art-link {
   margin-bottom: 10px;
   display: block;
@@ -851,6 +871,20 @@ h1 {
 
 .social-info a[href*="twitter"]:hover:before {
   background-color: #00aced; }
+
+.social-info a[href*="soundcloud"]:before {
+  content: "\f1be";
+  padding: 7px 5px; }
+
+.social-info a[href*="soundcloud"]:hover:before {
+  background-color: #ff6700; }
+
+.social-info a[href*="bandcamp"]:before {
+  content: "\f2d5";
+  padding: 7px 7px; }
+
+.social-info a[href*="bandcamp"]:hover:before {
+  background-color: #639aa9; }
 
 .social-info a[href*="youtube"]:before {
   content: "\f167";
