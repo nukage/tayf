@@ -306,7 +306,9 @@ hr {
 
 .categories {
   padding-bottom: 30px;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  left: -12px; }
 
 ul.cat li {
   display: inline-block; }
@@ -1084,6 +1086,16 @@ ol.type li a:hover {
 
 .wow {
   visibility: hidden; }
+
+.staffmember {
+  margin-bottom: 20px; }
+  .staffmember img {
+    margin-bottom: 20px; }
+  .staffmember h4 {
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .staffmember h4 {
+        font-size: 30px; } }
 
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
