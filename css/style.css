@@ -305,7 +305,7 @@ hr {
   background: #f6f6f6; }
 
 .categories {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   text-align: center;
   position: relative;
   left: -12px; }
@@ -756,7 +756,7 @@ a:hover {
 
 #page-content {
   background: #FCFCFC;
-  padding-top: 60px; }
+  padding-top: 51px; }
 
 h1 {
   text-transform: uppercase;
@@ -921,6 +921,13 @@ h1 {
 .social-info a[href*="google"]:hover:before {
   background-color: #e25714; }
 
+.social-info a[href*="mailto"]:before {
+  content: "\f0e0";
+  padding: 7px 8px; }
+
+.social-info a[href*="google"]:hover:before {
+  background-color: #e25714; }
+
 .social-info a {
   display: block;
   width: 48%;
@@ -929,6 +936,9 @@ h1 {
 
 .page-scroll:nth-of-type(2) {
   display: none; }
+
+.staffmember .social-info a {
+  width: 99%; }
 
 @media (max-width: 992px) {
   .navbar-header {
@@ -1108,6 +1118,25 @@ ol.type li a:hover {
     @media (max-width: 767px) {
       .staffmember h4 {
         font-size: 30px; } }
+
+.home .letter-selectbox {
+  display: none; }
+
+.letter-selectbox {
+  margin: auto;
+  text-align: center; }
+  .letter-selectbox select {
+    margin-bottom: 20px; }
+
+.letters {
+  text-align: center;
+  margin: 0 auto 20px auto; }
+  @media (max-width: 767px) {
+    .letters {
+      max-width: 220px; } }
+  .letters li {
+    display: inline;
+    margin: 0.5%; }
 
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
