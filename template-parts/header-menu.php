@@ -2,9 +2,10 @@
       <ul class="nav navbar-nav">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
       
-        <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/">Home</a> </li>
+       <!--  <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/">Home</a> </li> -->
          <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/about">About</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/artists">Artists</a> </li>
+        <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/tour">Tour</a> </li>
         <li> <a class="page-scroll" href="<?php echo get_site_url() ; ?>/press-release">Releases</a> </li>
        </li><li>
        <form role="search" method="get" id="searchform" class="searchform navbar-form" action="<?php echo get_site_url() ; ?>"> 
