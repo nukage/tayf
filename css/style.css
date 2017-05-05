@@ -1149,9 +1149,19 @@ ol.type li a:hover {
   display: block; }
 
 #twitter-widget {
-  height: 400px;
+  height: 300px;
   overflow: auto;
-  width: 221px; }
+  width: auto; }
+
+#footer .footer-contacts p {
+  text-align: left;
+  color: white; }
+
+#footer .footer-contacts p > span {
+  color: #ababab; }
+
+#footer .footer-contacts a {
+  color: #90e1ff; }
 
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
