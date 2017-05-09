@@ -1152,6 +1152,23 @@ ol.type li a:hover {
   height: 300px;
   overflow: auto;
   width: auto; }
+  #twitter-widget #ctf-more {
+    display: none; }
+  #twitter-widget .ctf-header {
+    display: none; }
+  #twitter-widget .ctf-tweets {
+    text-align: left; }
+  #twitter-widget .ctf-tweet-text a {
+    color: #90e1ff; }
+  #twitter-widget .ctf-header-name {
+    color: #A66AD6; }
+  #twitter-widget .ctf-author-box {
+    text-align: left; }
+  #twitter-widget .ctf-tweet-actions i {
+    color: white;
+    color: #90e1ff; }
+  #twitter-widget .ctf-tweet-actions span {
+    color: white; }
 
 #footer .footer-contacts p {
   text-align: left;
