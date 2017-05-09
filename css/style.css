@@ -935,6 +935,19 @@ h1 {
   float: left;
   height: 40px; }
 
+.staffmember a {
+  font-weight: 400;
+  font-size: 12px; }
+
+.staffmember a[href*="mailto"]:before {
+  content: "\f0e0";
+  padding: 0;
+  background: transparent;
+  color: #A66AD6; }
+  @media (max-width: 1199px) and (min-width: 767px) {
+    .staffmember a[href*="mailto"]:before {
+      display: none; } }
+
 .page-scroll:nth-of-type(2) {
   display: none; }
 
@@ -1149,7 +1162,7 @@ ol.type li a:hover {
   display: block; }
 
 #twitter-widget {
-  height: 300px;
+  height: 150px;
   overflow: auto;
   width: auto; }
   #twitter-widget #ctf-more {
@@ -1179,6 +1192,28 @@ ol.type li a:hover {
 
 #footer .footer-contacts a {
   color: #90e1ff; }
+
+.bcard img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  position: relative;
+  top: -10px; }
+
+.not-found h1, .not-found h2, .not-found h3, .not-found h4, .not-found p {
+  text-align: center; }
+
+.not-found #page-content .container {
+  min-height: 500px; }
+
+.not-found #searchform {
+  margin-bottom: 100px; }
+
+.search-results h2.entry-title {
+  margin-bottom: 15px; }
+
+.search-results .entry-summary {
+  margin-bottom: 20px; }
 
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
