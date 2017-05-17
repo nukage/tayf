@@ -316,6 +316,9 @@ ul.cat li {
 ol.type li {
   display: inline-block;
   margin-left: 20px; }
+  @media (max-width: 500px) {
+    ol.type li {
+      margin-bottom: 20px; } }
 
 ol.type li a {
   color: #777;
@@ -656,7 +659,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-bottom: 15px;
   padding-left: 0; }
   .underline h4 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0; }
 
 .press-releases h2 {
   font-size: 17px;
@@ -694,18 +699,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   max-width: 100%;
   margin: auto; }
 
+@media (max-width: 767px) {
+  .slides {
+    max-width: 563px;
+    margin: auto; } }
+
 .slides p {
   position: absolute;
   width: 100%; }
 
+.slides .caption {
+  position: absolute;
+  bottom: -10px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 5px;
+  font-size: 12px; }
+
 .slides a {
   position: absolute;
-  bottom: 17px;
-  left: 20px;
+  bottom: 0px;
+  right: 0px;
   color: white;
+  font-size: 12px;
   font-weight: 500;
-  padding: 8px;
-  border-radius: 5px;
+  padding: 5px;
   background: rgba(0, 0, 0, 0.2); }
 
 .slides a:hover {
@@ -808,9 +826,9 @@ h1 {
   content: '\2022';
   padding: 0 5px 0 0; }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .navbar-custom form {
-    float: left; } }
+    padding: 2px 0 2px 30px; } }
 
 .search-custom-button {
   height: 34px;
@@ -825,8 +843,7 @@ h1 {
 
 @media (max-width: 767px) {
   .navbar-form {
-    width: 94%;
-    margin: auto;
+    width: 100%;
     padding: 0; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1214,6 +1231,57 @@ ol.type li a:hover {
 
 .search-results .entry-summary {
   margin-bottom: 20px; }
+
+.home-events {
+  padding-bottom: 20px; }
+  .home-events .ecs-event {
+    width: 48%;
+    padding: 0 5px 5px 0;
+    float: left; }
+    .home-events .ecs-event .time {
+      font-size: 10px; }
+    .home-events .ecs-event .entry-title {
+      margin: 0; }
+    @media (min-width: 508px) {
+      .home-events .ecs-event {
+        width: 32%;
+        padding: 0 5px 5px 0;
+        float: left; } }
+    .home-events .ecs-event img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+
+.home-releases article:last-of-type {
+  border: none; }
+
+.home-releases article {
+  border-bottom: #555 dotted 1px;
+  padding-bottom: 5px;
+  margin-top: 5px; }
+  .home-releases article p, .home-releases article h3, .home-releases article .btn-read-more, .home-releases article .btn-view-all {
+    font-size: 90%;
+    margin: 0;
+    padding: 0; }
+  .home-releases article h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-weight: 300; }
+    .home-releases article h3 a {
+      color: #444; }
+
+@media (min-width: 768px) {
+  .single-tribe_events .tribe-events-event-image {
+    float: left;
+    max-width: 50%;
+    padding: 0 15px 15px 0;
+    display: block; }
+    .single-tribe_events .tribe-events-event-image img {
+      max-height: 500px;
+      width: auto; }
+  .single-tribe_events .tribe-events-cal-links {
+    clear: left; } }
 
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
