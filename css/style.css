@@ -1313,6 +1313,9 @@ ol.type li a:hover {
   padding: 0;
   visibility: hidden; }
 
+#twitter-widget {
+  color: #ccc; }
+
 .navbar-brand {
   background: url("../img/layout/tayf_logo1.png") no-repeat center center;
   background-size: contain;
