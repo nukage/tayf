@@ -22,6 +22,10 @@
 
     
         </li>
-
+<div class="social-info">
+        <li><a href="http://www.twitter.com/tayfpr" target="_blank"><span class="screen-reader-text">twitter</span></a></li>
+        <li><a href="https://www.facebook.com/tellallyourfriendspr/" target="_blank"><span class="screen-reader-text">facebook</span></a></li>
+        <li><a href="https://www.instagram.com/tayfpr/" target="_blank"><span class="screen-reader-text">instagram</span></a></li>
+</div>
       </ul>
     </div>
