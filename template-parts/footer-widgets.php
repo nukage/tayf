@@ -1,14 +1,14 @@
-    <div class="col-sm-8 footer-contacts wow fadeInLeft animated bcard" data-wow-delay="1s">
+    <div class="col-sm-6 footer-contacts wow fadeInLeft animated bcard" data-wow-delay="1s">
 
     <img src="<?php echo get_stylesheet_directory_uri()?>/img/layout/TAYF_FOOTOERLOGO.png"  height="auto" alt="Tell All Your Friends PR">
    <p>MANHATTAN OFFICE:<br>
         <a href="tel:(212)226-3792" target="_blank">(212)226-3792</a></p>
         <p>BROOKLYN OFFICE:<br>
-        <a href="tel:(212)226-3792" target="_blank">(555)224-2525</a></p>  
+        <a href="tel:(917)660-4137" target="_blank">(555)224-2525</a></p>  
         </div>
 
     
-    <div class="col-sm-4 wow fadeInRight animated" data-wow-delay="1.5s"> 
+    <div class="col-sm-6 wow fadeInRight animated" data-wow-delay="1.5s"> 
        <div id="twitter-widget"> <?php dynamic_sidebar( 'footer-sidebar' ); ?>
        </div>
     </div>
