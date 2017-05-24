@@ -971,20 +971,23 @@ h1 {
 .staffmember .social-info a {
   width: 99%; }
 
-.navbar-nav .social-info {
+.footer-social-info {
   position: relative;
   width: 150px;
-  padding-top: 5px;
-  float: right; }
+  padding-top: 5px; }
+  .footer-social-info li {
+    display: block; }
   @media (max-width: 996px) {
-    .navbar-nav .social-info {
+    .footer-social-info {
       float: left;
       margin-left: 15px; } }
-  .navbar-nav .social-info a {
+  .footer-social-info a {
     display: inline;
     width: auto; }
-  .navbar-nav .social-info a:hover {
+  .footer-social-info a:hover {
     background: none; }
+  .footer-social-info a:hover:before {
+    background: #90e1ff !important; }
 
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -1236,7 +1239,6 @@ ol.type li a:hover {
 .bcard img {
   float: left;
   margin-right: 10px;
-  margin-bottom: 40px;
   position: relative;
   top: -10px; }
 

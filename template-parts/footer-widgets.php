@@ -6,6 +6,14 @@
         <p>BROOKLYN OFFICE:<br>
         <a href="tel:(917)660-4137" target="_blank">(555) 224-2525</a></p>  
         <div class="clearfix"></div>
+
+        <div class="social-info footer-social-info">
+          <li><a href="http://www.twitter.com/tayfpr" target="_blank"><span class="screen-reader-text">twitter</span></a></li>
+          <li><a href="https://www.facebook.com/tellallyourfriendspr/" target="_blank"><span class="screen-reader-text">facebook</span></a></li>
+          <li><a href="https://www.instagram.com/tayfpr/" target="_blank"><span class="screen-reader-text">instagram</span></a></li>
+
+        </div>
+           <div class="clearfix"></div>
         </div>
 
     
