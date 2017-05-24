@@ -5,6 +5,7 @@
         <a href="tel:(212)226-3792" target="_blank">(212) 226-3792</a></p>
         <p>BROOKLYN OFFICE:<br>
         <a href="tel:(917)660-4137" target="_blank">(555) 224-2525</a></p>  
+        <div class="clearfix"></div>
         </div>
 
     

@@ -1203,7 +1203,6 @@ ol.type li a:hover {
   display: block; }
 
 #twitter-widget {
-  height: 150px;
   overflow: auto;
   width: auto; }
   #twitter-widget #ctf-more {
