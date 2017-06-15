@@ -307,15 +307,19 @@ hr {
 .categories {
   padding-bottom: 20px;
   text-align: center;
-  position: relative;
-  left: -26px; }
+  position: relative; }
+  @media (min-width: 550px) {
+    .categories {
+      left: -26px; } }
 
 ul.cat li {
   display: inline-block; }
 
 ol.type li {
-  display: inline-block;
-  margin-left: 20px; }
+  display: inline-block; }
+  @media (min-width: 550px) {
+    ol.type li {
+      margin-left: 20px; } }
   @media (max-width: 500px) {
     ol.type li {
       margin-bottom: 20px; } }
