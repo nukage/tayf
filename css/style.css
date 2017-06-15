@@ -420,6 +420,12 @@ ol.type li a:hover {
 
 .hover-bg img {
   transition: all .5s; }
+  @media (min-width: 1200px) {
+    .hover-bg img {
+      min-height: 210px; } }
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .hover-bg img {
+      height: 170px; } }
 
 .hover-bg:hover img {
   transition: all .5s;
