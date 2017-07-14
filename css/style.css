@@ -897,6 +897,9 @@ h1 {
   -webkit-transition: .5s;
   transition: .5s; }
 
+.social-info a.bio-read-btn:before {
+  display: none; }
+
 .social-info a:hover:before {
   background-color: #3d5b99; }
 
@@ -1040,21 +1043,21 @@ h1 {
   text-indent: -999em;
   width: 200px; }
 
-.biography .bio-read-btn {
+.bio-read-btn {
   cursor: pointer; }
 
-.biography .bio-read-btn .chevron {
+.bio-read-btn .chevron {
   font-family: fontawesome;
   padding-left: 5px;
   font-size: 12px; }
 
-.biography .bio-read-btn .chevron:after {
+.bio-read-btn .chevron:after {
   content: "\f196"; }
 
-.biography .bio-read-btn[aria-expanded="true"] .chevron:after {
+.bio-read-btn[aria-expanded="true"] .chevron:after {
   content: "\f147"; }
 
-.biography .bio-read-btn[aria-expanded="false"] .chevron:after {
+.bio-read-btn[aria-expanded="false"] .chevron:after {
   content: "\f196"; }
 
 .press-releases-archive h2.widget-title {
